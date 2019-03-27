@@ -1,6 +1,23 @@
 @charset "utf-8";
 /* CSS Document */
-
+/*cell phone size*/
+@media (max-width: 500px){
+	body{
+		background-color: blue;
+	}
+}
+@media (min-width: 600px){
+	body{
+		background-color: red;
+	}
+}
 body {
-	background-color: aquamarine
+	font-family: Raleway;
+}
+h1{
+	font-family: Dancing Script;
+	font-weight: bolder;
+}
+i{
+	align-items: center;
 }
